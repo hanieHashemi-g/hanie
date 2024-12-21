@@ -1,0 +1,23 @@
+.roend-1 {
+  background-color: blue;
+  width: 800px;
+  height: 800px;
+  shape-outside: ellipse(20% 50%);
+  clip-path: ellipse(20% 50%);
+  position: absolute;
+}
+.roend-2 {
+  position: absolute;
+  shape-outside: ellipse(20% 50%);
+  clip-path: ellipse(20% 50%);
+}
+.roundShape {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #007bff;
+  clip-path: ellipse(70% 40% at 50% 30%);
+  z-index: 1;
+}
